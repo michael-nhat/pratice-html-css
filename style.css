@@ -1,0 +1,40 @@
+* {
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+html {
+    border: none;
+}
+
+body {
+    border: none;
+    margin: 00px;
+}
+
+.header {
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.body {
+    margin-top: 105px;
+}
+
+.body .sidebar {
+    float: left;
+}
+
+.body .content {
+    height: 800px;
+}
+
+.message-box {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: solid;
+}
