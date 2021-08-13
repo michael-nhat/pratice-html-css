@@ -14,12 +14,8 @@ html {
 }
 
 body {
-    margin: 0px;
-    border: none;
-}
-
-.container-body {
     margin: 0px auto;
+    border: none;
     min-width: 1024px;
     max-width: 1200px;
 }
@@ -27,4 +23,21 @@ body {
 .body {
     height: 800px;
     background-color: #ff0;
+}
+
+.header .top-banner {
+    height: 44px;
+}
+
+.top-header {
+    height: 44px;
+}
+
+.top-header logo-main {
+    height: 24px;
+
+}
+
+.main-header {
+    height: 43px;
 }
