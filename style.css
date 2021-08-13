@@ -1,0 +1,30 @@
+* {
+    border: solid 1px;
+    box-sizing: border-box;
+}
+
+html {
+    border: none;
+}
+
+.msg-box-main {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+body {
+    margin: 0px;
+    border: none;
+}
+
+.container-body {
+    margin: 0px auto;
+    min-width: 1024px;
+    max-width: 1200px;
+}
+
+.body {
+    height: 800px;
+    background-color: #ff0;
+}
