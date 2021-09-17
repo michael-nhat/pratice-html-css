@@ -1,3 +1,5 @@
-This is draft file
+Create a page has a post facebook-like,
+post section, comment section
+
 
 

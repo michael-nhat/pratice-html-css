@@ -1,6 +1,6 @@
 * {
-    border: solid 1px;
-    box-sizing: border-box;
+    /* border: solid 1px; */
+    /* box-sizing: border-box; */
 }
 
 html {
@@ -24,7 +24,80 @@ body {
     max-width: 1200px;
 }
 
+.header-facebook {
+    background-color: #097EEB;
+}
+
 .body {
-    height: 800px;
-    background-color: #ff0;
+    background-color: #F0F2F5;
+}
+
+.body .post-card {
+    width: 400px;
+    background-color: #fff;
+}
+
+.body .post-card .avatar-style {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.body .post-card .avatar-style img {
+    width: 100%;
+    height: 100%;
+}
+
+.body .post-card .info-header{
+    display: flex;
+}
+
+.body .post-card .info-header .info-action {
+    flex-grow: 1;
+}
+
+.body .post-card .counter {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.body .post-card .buttons {
+    display: flex;
+    justify-content: space-around;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+    padding: 10px 0;
+}
+
+.body .post-card .comment-filter {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.body .post-card .comment-section .comment-item {
+    display: flex;
+}
+
+.body .post-card .comment-section .comment-item .comment-item--content {
+    flex-grow: 1;
+}
+
+.body .post-card .comment-box {
+    display: flex;
+}
+
+.body .post-card .comment-box .comment-box--input-area {
+    flex-grow: 1;
+}
+
+.body .post-card .comment-box .comment-box--function-buttons {
+    float: right;
+}
+
+.body .post-card .comment-box .comment-box--input-box {
+    width: 90%;
+}
+
+.body .post-card .comment-item .comment-item--buttons {
+    display: flex;
 }
